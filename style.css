@@ -30,7 +30,6 @@ html, body {
 }
 .hero h4{
     margin-top: -20px;
-    font-weight: 400;
 }
 .text-date {
     font-family:'sacramento', cursive;
@@ -155,6 +154,9 @@ footer {
       transform: rotate(360deg);
     }
   }
+  .text-end{
+    text-align: right !important;
+  }
 
 
 
@@ -191,8 +193,9 @@ footer {
         font-size: 18px;
     }
     .hero p{
-        font-weight:100;
+        font-weight:300;
         font-size: 13px;
+        font-size: 12px;
     }
     .navbar-collapse span{
         font-size: 12px;
@@ -245,10 +248,6 @@ footer {
     }
     .hero h4{
       font-size: 17px;
-    }
-    .hero p{
-      font-size: 12px;
-      text-align: center;
     }
 }
 
